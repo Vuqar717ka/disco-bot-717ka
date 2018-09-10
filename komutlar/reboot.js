@@ -18,7 +18,5 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'reboot', 
-  description: 'Botu yeniden başlatır',
   usage: 'reboot'
 };
