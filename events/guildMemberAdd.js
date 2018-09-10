@@ -1,5 +1,5 @@
-module.exports = member => {
-    let username = member.user.username;
-    member.sendMessage('Hoş geldin **' + username + '**!');
-    member.guild.defaultChannel.send('hg '+username+'');
-};
+	module.exports = member => {
+	  let guild = member.guild;
+	  member.send('Hoşgeldin!');
+	  guild.defaultChannel.send(`hg`);
+	};
